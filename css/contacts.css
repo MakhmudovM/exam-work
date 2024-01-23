@@ -1,0 +1,118 @@
+.contacts {
+}
+.contacts__wrapper {
+  display: flex;
+  background-color: var(--Peach);
+  width: 1111px;
+  height: 480px;
+  border-radius: 15px;
+}
+.left__content {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  padding: 120px 90px;
+}
+.left__content-inner {
+}
+.left__content-inner-title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+.left__content-inner-description {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 445px;
+}
+.right__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 70px;
+  opacity: 0.5;
+}
+.right__content-inner {
+}
+.about-info {
+  margin-bottom: 16px;
+  margin-top: 25px;
+  border-bottom: 2px solid var(--WHITE);
+  width: 380px;
+  padding-bottom: 27px;
+}
+.Name {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.Email {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.Phone {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.Message {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+/*hr*/
+
+.location__container {
+  margin-bottom: 160px;
+}
+
+.location__list {
+  display: flex;
+  gap: 30px;
+}
+
+.location__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+}
+
+.location__item-img {
+}
+
+.location__item-title {
+  margin-bottom: 32px;
+  color: var(--DARK-GREY);
+}
+
+.location__item-link {
+  border-radius: 8px;
+  background-color: var(--Peach);
+  padding: 18px 18.5px 16px 18.5px;
+  color: var(--white);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.location__item-link:active {
+  border-radius: 8px;
+  color: var(--WHITE);
+  background-color: var(--box-bacground);
+}

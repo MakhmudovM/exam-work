@@ -1,0 +1,133 @@
+.hero {
+  margin-bottom: 160px;
+}
+.card {
+}
+.container {
+}
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero__title {
+  margin-top: 45px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.hero__description {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 400px;
+}
+.graphic {
+  margin-bottom: 160px;
+}
+.graphic__wrapper {
+}
+.graphic__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.graphic__item {
+  margin-left: 30px;
+  margin-bottom: 32px;
+}
+.graphic__img {
+  border-radius: 15px 15px 0 0;
+}
+.item__content-wrapper {
+  background-color: var(--box-bacground);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+}
+.graphic__item-title {
+  color: var(--Peach);
+  text-align: center;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 130% */
+  letter-spacing: 5px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.graphic__item-description {
+  color: var(--BLACK);
+  text-align: center;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 286px;
+}
+.design {
+  margin-bottom: 160px;
+}
+.design__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.design__links {
+  margin-right: 30px;
+}
+.design__links-img {
+  border-radius: 15px;
+}
+.project {
+  margin-bottom: -70px;
+  position: relative;
+}
+.project__wrapper {
+  display: flex;
+  padding: 72px 95px;
+  justify-content: space-between;
+}
+.project__content {
+}
+.project__title {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 30px;
+  width: 268px;
+}
+.project__description {
+  width: 459px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 72px;
+}
+.card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 152px;
+  height: 56px;
+  text-align: center;
+  background-color: var(--WHITE);
+  color: var(--BLACK);
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
