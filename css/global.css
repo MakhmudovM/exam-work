@@ -135,6 +135,9 @@ body {
   line-height: 14px; /* 100% */
   letter-spacing: 2px;
 }
+.sitenav-link {
+  color: var(--DARK-GREY);
+}
 
 /*header end*/
 
